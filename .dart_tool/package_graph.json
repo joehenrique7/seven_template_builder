@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "seven_template_editor",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "dependencies": [
         "flutter",
         "uuid"
@@ -22,6 +22,14 @@
       ]
     },
     {
+      "name": "uuid",
+      "version": "4.5.3",
+      "dependencies": [
+        "crypto",
+        "fixnum"
+      ]
+    },
+    {
       "name": "flutter",
       "version": "0.0.0",
       "dependencies": [
@@ -34,13 +42,30 @@
       ]
     },
     {
-      "name": "vector_math",
-      "version": "2.2.0",
+      "name": "lints",
+      "version": "5.1.1",
       "dependencies": []
+    },
+    {
+      "name": "fixnum",
+      "version": "1.1.1",
+      "dependencies": []
+    },
+    {
+      "name": "crypto",
+      "version": "3.0.7",
+      "dependencies": [
+        "typed_data"
+      ]
     },
     {
       "name": "sky_engine",
       "version": "0.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "vector_math",
+      "version": "2.2.0",
       "dependencies": []
     },
     {
@@ -64,31 +89,6 @@
       "name": "characters",
       "version": "1.4.1",
       "dependencies": []
-    },
-    {
-      "name": "lints",
-      "version": "5.1.1",
-      "dependencies": []
-    },
-    {
-      "name": "uuid",
-      "version": "4.5.3",
-      "dependencies": [
-        "crypto",
-        "fixnum"
-      ]
-    },
-    {
-      "name": "fixnum",
-      "version": "1.1.1",
-      "dependencies": []
-    },
-    {
-      "name": "crypto",
-      "version": "3.0.7",
-      "dependencies": [
-        "typed_data"
-      ]
     },
     {
       "name": "typed_data",

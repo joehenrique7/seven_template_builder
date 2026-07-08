@@ -1,6 +1,6 @@
 name: seven_template_editor
 description: "Seven Template Editor: motor de editor visual (canvas) e renderer de templates para banners do Atleta do Vôlei."
-version: 0.1.0
+version: 1.0.0
 homepage:
 
 environment:
